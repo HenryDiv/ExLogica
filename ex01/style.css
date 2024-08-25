@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    padding-bottom: 60px;
+}
+.container{
+    display: flex;
+    background-color:#000000cc;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 20px;
+    width: 40vh;
+    height: 52vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.inputs{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: #cccc;
+    border: none;
+    border-radius: 999px;
+    color: rgb(0, 0, 0);
+   
+}
+
+#soma{
+    width: 120px;
+    height: 50px; 
+    background: #cccc;
+    margin-top: 20px;
+    border-radius: 999px;
+    color: #000000;
+    transition: all 200ms linear;
+    border: 2px solid transparent;
+}
+
+#soma:hover{
+    background-color: #ffffffcc;
+    transition: all 200ms linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+#resultado{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
